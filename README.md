@@ -4,7 +4,7 @@
 
 Does syntax highlighting for Textual CSS files (files with the extension `.tcss`).
 
-![A view of a highlighted file.](tcss.png)
+![A view of a highlighted file.](./tcss.png)
 ## Known Issues
 
 This extension does not support highlighting variables or selectors.

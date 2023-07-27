@@ -3,6 +3,7 @@
   "displayName": "Textual CSS Syntax Highlighter",
   "description": "Enables syntax highlighting for Textual CSS",
   "version": "0.1.0",
+  "repository": "https://github.com/Textualize/tcss-vscode-extension",
   "engines": {
     "vscode": "^1.79.0"
   },
