@@ -11,6 +11,4 @@ This extension does not support highlighting variables or selectors.
 
 ## Release Notes
 
-### 0.1.0
-
-Initial release.
+See the [change log](./CHANGELOG.md).
