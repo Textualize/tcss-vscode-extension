@@ -4,6 +4,7 @@
   "description": "Enables syntax highlighting for Textual CSS",
   "version": "0.1.0",
   "repository": "https://github.com/Textualize/tcss-vscode-extension",
+  "publisher": "mathspp",
   "engines": {
     "vscode": "^1.79.0"
   },
