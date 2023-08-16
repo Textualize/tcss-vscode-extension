@@ -5,9 +5,16 @@
 Does syntax highlighting for Textual CSS files (files with the extension `.tcss`).
 
 ![A view of a highlighted file.](./tcss.png)
-## Known Issues
 
-This extension does not support highlighting variables or selectors.
+
+## Grammar dependency
+
+This extension uses the grammar `tcss.tmGrammar.json` that is converted from the YAML grammar in the [TCSS TextMate grammar repository](https://github.com/Textualize/tcss-textmate-grammar).
+To convert the YAML grammar into this JSON grammar, use
+
+```bash
+npx js-yaml ../tcss-textmate-grammar/grammar.yaml > syntaxes/tcss.tmGrammar.json
+```
 
 ## Release Notes
 
