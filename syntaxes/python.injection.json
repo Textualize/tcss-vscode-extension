@@ -1,0 +1,58 @@
+{
+    "scopeName": "tcss.python.injection",
+    "injectionSelector": "L:source.python",
+    "patterns": [
+        {
+            "begin": "(?:(?:DEFAULT_)?CSS = (\"\"\"))",
+            "beginCaptures": {
+                "1": { "name": "string.quoted.multi.python punctuation.definition.string.begin.python" }
+            },
+            "end": "(\"\"\")",
+            "endCaptures": {
+                "1": { "name": "string.quoted.multi.python punctuation.definition.string.end.python"}
+            },
+            "patterns": [
+                { "include": "source.tcss" }
+            ]
+        },
+        {
+            "begin": "(?:(?:DEFAULT_)?CSS = ('''))",
+            "beginCaptures": {
+                "1": { "name": "string.quoted.multi.python punctuation.definition.string.begin.python" }
+            },
+            "end": "(''')",
+            "endCaptures": {
+                "1": { "name": "string.quoted.multi.python punctuation.definition.string.end.python"}
+            },
+            "patterns": [
+                { "include": "source.tcss" }
+            ]
+        },
+        {
+            "begin": "(?:(?:DEFAULT_)?CSS = (\"))",
+            "beginCaptures": {
+                "1": { "name": "string.quoted.single.python punctuation.definition.string.begin.python" }
+            },
+            "end": "(\")",
+            "endCaptures": {
+                "1": { "name": "string.quoted.single.python punctuation.definition.string.end.python"}
+            },
+            "patterns": [
+                { "include": "source.tcss" }
+            ]
+        },
+        {
+            "begin": "(?:(?:DEFAULT_)?CSS = ('))",
+            "beginCaptures": {
+                "1": { "name": "string.quoted.single.python punctuation.definition.string.begin.python" }
+            },
+            "end": "(')",
+            "endCaptures": {
+                "1": { "name": "string.quoted.single.python punctuation.definition.string.end.python"}
+            },
+            "patterns": [
+                { "include": "source.tcss" }
+            ]
+        }
+    ]
+}

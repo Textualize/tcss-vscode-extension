@@ -6,6 +6,10 @@ Does syntax highlighting for Textual CSS files (files with the extension `.tcss`
 
 ![A view of a highlighted file.](./tcss.png)
 
+It also does highlighting inside `CSS` and `DEFAULT_CSS` class variables in Python files:
+
+![A Python file and a `CSS` class variable highlighted.](./python_injection.png)
+
 
 ## Grammar dependency
 

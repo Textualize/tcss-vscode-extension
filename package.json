@@ -27,6 +27,11 @@
         "language": "Textual CSS",
         "scopeName": "source.tcss",
         "path": "./syntaxes/tcss.tmGrammar.json"
+      },
+      {
+        "path": "./syntaxes/python.injection.json",
+        "scopeName": "tcss.python.injection",
+        "injectTo": ["source.python"]
       }
     ],
     "commands": []

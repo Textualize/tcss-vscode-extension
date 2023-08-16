@@ -1,5 +1,8 @@
 # Change Log
 
+## 0.3.0
+
+- Highlight TCSS inside `CSS` and `DEFAULT_CSS` class variables in Python
 
 ## 0.2.0
 
