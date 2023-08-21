@@ -1,11 +1,11 @@
 {
-  "name": "textual-css-syntax-highlighter",
-  "displayName": "Textual CSS Syntax Highlighter",
+  "name": "textual-syntax-highlighter",
+  "displayName": "Textual Syntax Highlighter",
   "description": "Enables syntax highlighting for Textual CSS",
-  "version": "0.3.0",
+  "version": "1.0.0",
   "icon": "icon.png",
   "repository": "https://github.com/Textualize/tcss-vscode-extension",
-  "publisher": "mathspp",
+  "publisher": "Textualize",
   "engines": {
     "vscode": "^1.79.0"
   },
@@ -32,7 +32,9 @@
       {
         "path": "./syntaxes/python.injection.json",
         "scopeName": "tcss.python.injection",
-        "injectTo": ["source.python"]
+        "injectTo": [
+          "source.python"
+        ]
       }
     ],
     "commands": []
