@@ -2,7 +2,7 @@
   "name": "textual-syntax-highlighter",
   "displayName": "Textual Syntax Highlighter",
   "description": "Enables syntax highlighting for Textual CSS",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "icon": "icon.png",
   "repository": "https://github.com/Textualize/tcss-vscode-extension",
   "publisher": "Textualize",
