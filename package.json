@@ -20,7 +20,8 @@
         "id": "Textual CSS",
         "extensions": [
           ".tcss"
-        ]
+        ],
+        "configuration": "./language-configuration.json"
       }
     ],
     "grammars": [
