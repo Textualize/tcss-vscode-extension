@@ -136,7 +136,7 @@
     "property-keywords": {
       "patterns": [
         {
-          "match": "(?<![\\w-])(?:ascii|auto|blank|block|bold|border-box|bottom|center|content-box|dashed|double|end|grid|heavy|hidden|hkey|horizontal|inner|italic|justify|left|middle|none|outer|reverse|right|round|scroll|solid|stable|start|strike|tall|thick|top|underline|vertical|visible|vkey|wide)(?![\\w-])",
+          "match": "(?<![\\w-])(?:ascii|auto|blank|block|bold|border-box|both|bottom|center|content-box|dashed|double|end|grid|heavy|hidden|hkey|horizontal|inflect|initial|inner|italic|justify|left|middle|none|outer|reverse|right|round|screen|scroll|solid|stable|start|strike|tall|thick|top|underline|vertical|visible|vkey|wide|x|y)(?![\\w-])",
           "name": "support.constant.property-value.tcss"
         }
       ]
@@ -144,7 +144,7 @@
     "property-names": {
       "patterns": [
         {
-          "match": "(?<![\\w-])(?:align|align-horizontal|align-vertical|background|border|border-bottom|border-left|border-right|border-subtitle-align|border-subtitle-background|border-subtitle-color|border-subtitle-style|border-title-align|border-title-background|border-title-color|border-title-style|border-top|box-sizing|color|column-span|content-align|content-align-horizontal|content-align-vertical|display|dock|grid-columns|grid-gutter|grid-rows|grid-size|height|layer|layers|layout|link-background|link-color|link-hover-background|link-hover-color|link-hover-style|link-style|margin|margin-bottom|margin-left|margin-right|margin-top|max-height|max-width|min-height|min-width|offset|offset-x|offset-y|opacity|outline|outline-bottom|outline-left|outline-right|outline-top|overflow|overflow-x|overflow-y|padding|padding-bottom|padding-left|padding-right|padding-top|row-span|scrollbar-background|scrollbar-background-active|scrollbar-background-hover|scrollbar-color|scrollbar-color-active|scrollbar-color-hover|scrollbar-corner-color|scrollbar-gutter|scrollbar-size|scrollbar-size-horizontal|scrollbar-size-vertical|text-align|text-opacity|text-style|tint|visibility|width)(?![\\w-])",
+          "match": "(?<![\\w-])(?:align|align-horizontal|align-vertical|background|border|border-bottom|border-left|border-right|border-subtitle-align|border-subtitle-background|border-subtitle-color|border-subtitle-style|border-title-align|border-title-background|border-title-color|border-title-style|border-top|box-sizing|color|column-span|constrain|content-align|content-align-horizontal|content-align-vertical|display|dock|grid-columns|grid-gutter|grid-rows|grid-size|height|layer|layers|layout|link-background|link-color|link-hover-background|link-hover-color|link-hover-style|link-style|margin|margin-bottom|margin-left|margin-right|margin-top|max-height|max-width|min-height|min-width|offset|offset-x|offset-y|opacity|outline|outline-bottom|outline-left|outline-right|outline-top|overflow|overflow-x|overflow-y|overlay|padding|padding-bottom|padding-left|padding-right|padding-top|row-span|scrollbar-background|scrollbar-background-active|scrollbar-background-hover|scrollbar-color|scrollbar-color-active|scrollbar-color-hover|scrollbar-corner-color|scrollbar-gutter|scrollbar-size|scrollbar-size-horizontal|scrollbar-size-vertical|text-align|text-opacity|text-style|tint|visibility|width)(?![\\w-])",
           "name": "support.type.property-name.tcss"
         }
       ]
