@@ -1,5 +1,10 @@
 # Change Log
 
+## 1.2.0
+
+- Add support for the TCSS rules `overlay` and `constrain` (and their respective values)
+- Add support for the value `initial`
+
 ## 1.1.0
 
 - Add language configuration to enable line/block comments, auto-closing brackets, and more
