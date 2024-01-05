@@ -144,7 +144,7 @@
     "property-names": {
       "patterns": [
         {
-          "match": "(?<![\\w-])(?:align|align-horizontal|align-vertical|background|border|border-bottom|border-left|border-right|border-subtitle-align|border-subtitle-background|border-subtitle-color|border-subtitle-style|border-title-align|border-title-background|border-title-color|border-title-style|border-top|box-sizing|color|column-span|constrain|content-align|content-align-horizontal|content-align-vertical|display|dock|grid-columns|grid-gutter|grid-rows|grid-size|height|layer|layers|layout|link-background|link-color|link-hover-background|link-hover-color|link-hover-style|link-style|margin|margin-bottom|margin-left|margin-right|margin-top|max-height|max-width|min-height|min-width|offset|offset-x|offset-y|opacity|outline|outline-bottom|outline-left|outline-right|outline-top|overflow|overflow-x|overflow-y|overlay|padding|padding-bottom|padding-left|padding-right|padding-top|row-span|scrollbar-background|scrollbar-background-active|scrollbar-background-hover|scrollbar-color|scrollbar-color-active|scrollbar-color-hover|scrollbar-corner-color|scrollbar-gutter|scrollbar-size|scrollbar-size-horizontal|scrollbar-size-vertical|text-align|text-opacity|text-style|tint|visibility|width)(?![\\w-])",
+          "match": "(?<![\\w-])(?:align|align-horizontal|align-vertical|background|border|border-bottom|border-left|border-right|border-subtitle-align|border-subtitle-background|border-subtitle-color|border-subtitle-style|border-title-align|border-title-background|border-title-color|border-title-style|border-top|box-sizing|color|column-span|constrain|content-align|content-align-horizontal|content-align-vertical|display|dock|grid-columns|grid-gutter|grid-rows|grid-size|height|keyline|layer|layers|layout|link-background|link-background-hover|link-color|link-color-hover|link-style|link-style-hover|margin|margin-bottom|margin-left|margin-right|margin-top|max-height|max-width|min-height|min-width|offset|offset-x|offset-y|opacity|outline|outline-bottom|outline-left|outline-right|outline-top|overflow|overflow-x|overflow-y|overlay|padding|padding-bottom|padding-left|padding-right|padding-top|row-span|scrollbar-background|scrollbar-background-active|scrollbar-background-hover|scrollbar-color|scrollbar-color-active|scrollbar-color-hover|scrollbar-corner-color|scrollbar-gutter|scrollbar-size|scrollbar-size-horizontal|scrollbar-size-vertical|text-align|text-opacity|text-style|tint|visibility|width)(?![\\w-])",
           "name": "support.type.property-name.tcss"
         }
       ]
@@ -257,11 +257,14 @@
         {
           "match": ";",
           "name": "punctuation.terminator.rule.tcss"
+        },
+        {
+          "include": "#selector"
         }
       ]
     },
     "selector": {
-      "begin": "(?=[.*\\#a-zA-Z_])",
+      "begin": "(?=[.*\\#\\&a-zA-Z_])",
       "end": "(?=\\s*{)",
       "name": "meta.selector.tcss",
       "patterns": [
@@ -289,6 +292,10 @@
           "name": "entity.name.tag.wildcard.tcss"
         },
         {
+          "match": "\\&",
+          "name": "entity.name.tag.nesting-selector.tcss"
+        },
+        {
           "captures": {
             "1": {
               "name": "punctuation.definition.entity.css"
@@ -304,7 +311,7 @@
             }
           },
           "match": "(\\.)(?:[-a-zA-Z_0-9])+(?=$|[\\s,.\\#:{>]|/\\*|# )",
-          "name": "entity.other.attribute-name.class.css"
+          "name": "entity.other.attribute-name.class.tcss"
         },
         {
           "captures": {
