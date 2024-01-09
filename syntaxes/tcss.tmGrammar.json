@@ -136,7 +136,7 @@
     "property-keywords": {
       "patterns": [
         {
-          "match": "(?<![\\w-])(?:ascii|auto|blank|block|bold|border-box|both|bottom|center|content-box|dashed|double|end|grid|heavy|hidden|hkey|horizontal|inflect|initial|inner|italic|justify|left|middle|none|outer|reverse|right|round|screen|scroll|solid|stable|start|strike|tall|thick|top|underline|vertical|visible|vkey|wide|x|y)(?![\\w-])",
+          "match": "(?<![\\w-])(?:ascii|auto|blank|block|bold|border-box|both|bottom|center|content-box|dashed|double|end|grid|heavy|hidden|hkey|horizontal|inflect|initial|inner|italic|justify|left|middle|none|outer|panel|reverse|right|round|screen|scroll|solid|stable|start|strike|tall|thick|top|underline|vertical|visible|vkey|wide|x|y)(?![\\w-])",
           "name": "support.constant.property-value.tcss"
         }
       ]

@@ -1,5 +1,9 @@
 # Change Log
 
+## 1.3.1
+
+- Add support for `panel` border type
+
 ## 1.3.0
 
 - Fix rules `link-hover-*` which have been renamed as `link-*-hover` https://github.com/Textualize/tcss-textmate-grammar/issues/4
